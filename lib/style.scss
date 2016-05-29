@@ -89,7 +89,7 @@ header {
   text-align: center;
 }
 
-.IdeaBox {
+.GrudgeBin {
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -110,7 +110,7 @@ header {
   flex-grow: 7;
 }
 
-.CreateIdea {
+.CreateGrudge {
   padding: 1em;
   margin: 5px;
 
@@ -120,17 +120,17 @@ header {
   @include box-shadow;
 }
 
-.CreateIdea-title, .CreateIdea-body {
+.CreateGrudge-person, .CreateGrudge-reason {
   font-size: 1.2em;
 }
 
-.IdeasList {
+.GrudgesList {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid darken($sidebar-color, 10);
 }
 
-.IdeasListItem {
+.GrudgesListItem {
   padding: 1em;
   margin: 5px;
 
@@ -145,18 +145,18 @@ header {
   }
 }
 
-.IdeasListItem-title {
+.GrudgesListItem-person {
   margin-bottom: 0.5em;
 
   font-weight: 400;
   font-size: 1.5em;
 }
 
-.IdeasListItem-body {
+.GrudgesListItem-reason {
   font-weight: 300;
 }
 
-.IdeasListItem-buttons {
+.GrudgesListItem-buttons {
   margin: 1em 0;
   padding: 1em;
 
@@ -167,11 +167,11 @@ header {
   }
 }
 
-.ActiveIdea {
+.ActiveGrudge {
   padding: 1em;
 }
 
-.ActiveIdea-title, .ActiveIdea-body {
+.ActiveGrudge-person, .ActiveGrudge-reason {
   background-color: lighten($input-color, 10);
 
   transition: background-color 0.5s;
@@ -187,12 +187,12 @@ header {
   }
 }
 
-.ActiveIdea-title {
+.ActiveGrudge-person {
   font-weight: 600;
   font-size: 2em;
 }
 
-.ActiveIdea-body {
+.ActiveGrudge-reason {
   font-size: 1.5em;
   min-height: 60vh;
 }
