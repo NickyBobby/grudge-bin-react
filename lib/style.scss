@@ -167,11 +167,11 @@ header {
   }
 }
 
-.ActiveGrudge {
+.GrudgesListStats {
   padding: 1em;
 }
 
-.ActiveGrudge-person, .ActiveGrudge-reason {
+.GrudgesListStats {
   background-color: lighten($input-color, 10);
 
   transition: background-color 0.5s;
